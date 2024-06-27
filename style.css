@@ -1,0 +1,85 @@
+
+
+
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    font-style: italic;
+}
+
+
+p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+
+ul li:first-child {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+ol li:first-child {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+
+h1::before {
+    content: "✦ ";
+    color: gold;
+}
+
+h1::after {
+    content: " ✦";
+    color: gold;
+}
+
+
+.float-left {
+    float: left;
+    margin: 10px;
+}
+
+.float-right {
+    float: right;
+    margin: 10px;
+}
+
+
+.position-relative {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
